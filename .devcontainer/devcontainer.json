@@ -1,0 +1,16 @@
+{
+	"name": "My Project Dev",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "backend",
+	"workspaceFolder": "/app",
+	"customizations": {
+	  "vscode": {
+		"extensions": [
+		  "golang.go",
+		  "vue.volar",
+		  "ms-azuretools.vscode-docker",
+		  "ckolkman.vscode-postgres"
+		]
+	  }
+	}
+  }

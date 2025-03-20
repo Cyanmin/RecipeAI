@@ -1,0 +1,12 @@
+version: "2"
+sql:
+  - engine: "postgresql"
+    queries: "internal/database/queries.sql"
+    schema: "internal/database/schema.sql"
+    gen:
+      go:
+        package: "database"
+        out: "internal/database/sqlc"
+        emit_json_tags: true
+        emit_prepared_queries: true
+        emit_interface: true
